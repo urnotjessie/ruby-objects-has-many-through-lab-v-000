@@ -6,9 +6,6 @@ class Genre
     @songs = []
   end
 
-  def songs
-    @songs << 
-
   def artists
     self.songs
 
