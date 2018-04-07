@@ -7,5 +7,9 @@ class Genre
     @artists = []
   end
 
-
+  def artists
+    self.songs.collect do |song|
+      song.artists
+    end
+  end
 end
